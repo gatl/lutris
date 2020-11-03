@@ -325,6 +325,8 @@ class LutrisWindow(Gtk.ApplicationWindow):  # pylint: disable=too-many-public-me
                 "lastplayed": 0.0,
                 "installed_at": 0.0,
                 "playtime": 0.0,
+                "runner": "",
+                "platform": "",
             }
             lutris_game = lutris_games.get(game["appid"])
             if not lutris_game:
